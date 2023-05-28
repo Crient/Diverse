@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diverse</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="../css/movie.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+   <!-- Font awesome icon -->
+   <script src="https://kit.fontawesome.com/f82a23e05b.js" crossorigin="anonymous"></script>
+  <!-- Demo styles -->
+  <style>
+    a {
+      text-decoration: none;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+      background-color: black;
+    }
+
+    body {
+      background: black;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-size: cover;
+      width: 300px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+
+    .card {
+      background-color: black;
+    }
+
+    .movie-title {
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      margin-top: 10px
+    }
+
+    .movie-image {
+      border-radius: 100px;
+    }
+    .nav-item a:hover{
+      color: pink !important;
+      background-color: transparent;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+   <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top data-bs-theme=" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index/index.html"><img src="../photos/general/divsere-logo-icon.PNG"
+          width="120" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class=" navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a style="font-family: Sharp_Sans;" class="nav-link" href="../index/popular-movies.html">Popular</a>
+          </li>
+          <li class="nav-item">
+            <a style="font-family: Sharp_Sans;" class="nav-link" href="../index/trending-movies.html">Trending</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="font-family: Sharp_Sans;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a style="font-family: Sharp_Sans;" class="dropdown-item" href="../index/contact.html">Contact</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a style="font-family: Sharp_Sans;" class="dropdown-item" href="../index/subscription.html">Subscription</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" method="get" class="search-form" action="">
+              <label>
+                <input type="search" class="search-field-search-box" placeholder="Search …" value="" name="s" title="Search for:" />
+              </label>
+        </form>
+        
+      </div>
+    </div>
+  </nav>
+</header>
+  <main>
+    <!-- ===== carousel ===== -->
+    <section class="carousel">
+      <div  id="carouselExampleCaptions" class="carousel slide" id="carouselExampleSlidesOnly" class="carousel slide"
+        data-bs-interval="2000" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active"  data-bs-interval="2000">
+            <img src="../photos/general/diversebanner.JPG" class="d-block w-100 h-100 object-fit-cover"
+              alt="wizardstaning">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item"  data-bs-interval="2000">
+            <img src="../photos/general/diversebanner2.JPG" class="d-block w-100 h-100 object-fit-cover "
+              alt="hogwartsnight">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- ===== article ===== -->
+    <section class="article">
+      <div class="arcade-background">
+        <div class="arcade-info">
+          <h2 class="arcade-info-h2"> Unlimited movies and more.</h2>
+        <h5 class="arcade-info-h5">watch anywhere, explore anytime.</h5>
+        <p class="arcade-info-p">ready to watch? Enter your email to create or start a membership now!</p>
+        <div class="container">
+          <div class="search">
+                <div class="text-button">
+                  <div class="search-2">  <input type="text" placeholder="Enter email address">
+                    <button type="button" class="btn btn-danger">Subscribe</button>
+                  </div>
+                </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Popular movie slides ===== -->
+    <section class="popular-movie">
+      <img class="movie-titles" src="../photos/general/popularmovie-title.PNG"  style="width: 500px;" alt="popularmovie-title">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper popular-movies">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        
+        effect: "coverflow",
+        grabCursor: true,
+        slidesPerView: "auto",
+        loop: true,
+        coverflowEffect: {
+          rotate: 10,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+
+      });
+    </script>
+
+
+    <!-- ===== trending movie slides ===== -->
+    <section>
+      <img class="movie-titles" src="../photos/general/trendingmovie-title.PNG" style="width: 490px;" alt="trendingmovie-title">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper trending-movies">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        
+        effect: "coverflow",
+        grabCursor: true,
+        slidesPerView: "auto",
+        loop: true,
+        coverflowEffect: {
+          rotate: 10,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+
+      });
+    </script>
+        
+  </main>
+  
+  <div class="container">
+    <footer  class="py-3 ">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item "><a href="../index/index.html" class="nav-link px-2 footer-text" class="footer-text">Home</a></li>
+        <li class="nav-item"><a href="../index/popular-movies.html" class="nav-link px-2 footer-text"class="footer-text">Popular</a></li>
+        <li class="nav-item"><a href="../index/trending-movies.html" class="nav-link px-2 footer-text "class="footer-text">Trending</a></li>
+        <li class="nav-item"><a href="../index/contact.html" class="nav-link px-2 footer-text"class="footer-text">Contact</a></li>
+        <li class="nav-item"><a href="../index/subscription.html" class="nav-link px-2 footer-text"class="footer-text">Subscription</a></li>
+      </ul>
+
+        <!-- <div class="col-md-4 d-flex align-items-center"> -->
+          <!-- <span><a href="../index/index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+           <img src="../photos/general/divsere-logo-icon.PNG" alt=" " width="120">
+          </a></span> -->
+          <ul class="nav justify-content-center  pb-3 mb-3">
+            <li class="nav-item "><a href="#" class="nav-link px-2 footer-text" class="footer-icon"><i class="fa-brands fa-facebook-f"></i></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 footer-text" class="footer-icon"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 footer-text " class="footer-icon"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 footer-text " class="footer-icon"><i class="fa-brands fa-youtube"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 footer-text " class="footer-icon"><i class="fa-brands fa-telegram"></i></i></a></li>
+           
+          </ul>
+    
+        <!-- </div> -->
+    
+      </footer>
+
+  </div>
+  <!-- Javascript  -->
+  <script src="../js/movie.js"></script>
+  <!-- Bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

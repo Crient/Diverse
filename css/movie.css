@@ -1,0 +1,318 @@
+body{
+    background-color: black;
+}
+.container-fluid{
+    background-color: transparent;
+    margin-bottom: -10px;
+    padding: 10px;
+    
+}
+
+.navbar  {
+    margin-top: -1rem !important;
+    ;
+  }
+
+  /* search box */
+.container-search-box{height:200px;line-height:200px;text-align:center} 
+.search-form-search-box {
+	right: 200px;
+	top: 200px;
+}
+
+ .search-field-search-box {
+	background-color: transparent;
+	background-image: url(../photos/general/search-icon.PNG);
+	background-position: 5px  center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+    border-radius: 7px;
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	margin: 3px 0;
+	padding: 0 0 0 34px;
+	position: relative;
+	-webkit-transition: width 400ms ease, background 400ms ease;
+	transition:         width 400ms ease, background 400ms ease;
+	width:0px;
+   cursor: pointer;
+   margin-right: 10px;
+}
+
+.search-field-search-box:focus {
+	background-color: #FF10F0;
+	border: 1px solid white;
+	cursor: text;
+	outline: 0;
+	width: 250px;
+    color: white;
+}
+.search-form-search-box
+.search-submit-search-box { 
+display:none;
+}
+.container-fluid{
+    background-color: #cb007b;
+}
+
+.container-fluid a, .container-fluid i, .container-fluid span{
+    color: white;
+    text-shadow: grey;
+    padding-right: 10px;
+    font-size: 16px;
+ }
+.article{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.text-title{
+    color: white;
+}
+.dropdown-menu{
+    background-color: #cb007b;
+    border-color: black;
+}
+
+/* carousel */
+.carousel-inner{
+    margin-top: 58px;
+}
+
+
+
+.arcade-background{
+    position: relative;
+    height: 80vh;
+}
+.arcade-background::before {
+    content:'';
+    background-image: url(../photos/general/arcadebanner.jpg) ;
+    background-size: cover;
+    position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.70;
+}
+.article{
+    margin-top: 100px;
+}   
+        /* setting position while it still stay flexivle and middle */
+.arcade-info{
+    position: relative;
+    top: 225px;
+    padding-top: 500px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+      
+}
+.arcade-info-h2, .arcade-info-h5, .arcade-info-p{
+    text-align: center;
+    color: white;
+  text-shadow: -1px -1px 5px #CF72CD;
+  text-shadow: -1px 1px 2px black,
+                1px 1px 2px white,
+                1px -1px 0 white,;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: whitesmoke;  
+
+}
+.arcade-info-h2{
+    font-size: 50px;
+}
+.arcade-info-h5{
+    font-size: 25px;
+    margin-top: -11px;
+}
+.arcade-info-p{
+    font-size: 15px;
+    text-shadow: -1px -1px 5px black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: whitesmoke;  
+ margin-top: 25px;
+}
+
+/* button subscribe */
+.container-subscribe{
+    max-width: 100px;
+}
+.buttonsubscribe{
+    width: 300px;
+    margin: 100px;
+}
+.text-button{
+    display: block;
+    justify-content: space-between;
+
+}
+.search {
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px
+}
+
+
+.search-2 {
+    position: relative;
+    width: 100%
+}
+
+.search-2 input {
+    height: 45px;
+    border: none;
+    width: 80%;
+    padding-left: 18px;
+    padding-right: 100px
+}
+
+.search-2 input:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: none
+}
+
+.search-2 i {
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    font-size: 24px;
+    color: #eee
+}
+
+.search-2 button {
+    position: absolute;
+    right: 1px;
+    top: 0px;
+    border: none;
+    height: 45px;
+    background-color: red;
+    color: #fff;
+    width: 120px;
+    border-radius: 4px
+}
+
+
+@media (max-width:800px) {
+    .carousel-inner img{
+        height: 50%;
+    }
+
+}
+
+.popular-movies{
+    margin-top: 5px;
+}
+.text-title{
+    text-align: center;
+    margin-top: 110px;
+    font-size: 50px;
+}
+
+.container-footer p{
+    color: white;
+}
+.container-footer h5{
+    color: white;
+}
+.footer-items{
+    color: white;
+}
+/* search box */
+.container-search-box{height:200px;line-height:200px;text-align:center} 
+.search-form-search-box {
+	right: 200px;
+	top: 200px;
+}
+
+ .search-field-search-box {
+	background-color: transparent;
+	background-image: url(../photos/general/search-icon.PNG);
+	background-position: 5px  center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+    border-radius: 7px;
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	margin: 3px 0;
+	padding: 0 0 0 34px;
+	position: relative;
+	-webkit-transition: width 400ms ease, background 400ms ease;
+	transition:         width 400ms ease, background 400ms ease;
+	width:0px;
+   cursor: pointer;
+   margin-right: 10px;
+}
+
+.search-field-search-box:focus {
+	background-color: black;
+	border: 1px solid white;
+	cursor: text;
+	outline: 0;
+	width: 250px;
+    color: white;
+}
+.search-form-search-box
+.search-submit-search-box { 
+display:none;
+}
+
+
+.movie-titles{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* Footer */
+.footer-text{
+    color: white;
+    font-size: 15px;
+}
+.footer-icon{
+    font-size: 100px;
+    color: white;
+}
+/* Configured font from local file */
+
+@font-face {
+    font-family: "Blade_runner";
+    src: url(../font/BLADRMF_.TTF);
+}
+@font-face {
+    font-family: "Sharp_Sans";
+    src: url(../font/Sharp\ Sans\ Semibold.otf);
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) 
+{
+    .carousel-size{
+        max-height:  200px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) 
+{
+    .itemsdisplayflex{
+        background-color:   #F499A0;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) 
+{
+    .itemsdisplayflex{
+        background-color:   #E0BFB8;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) 
+{
+    .itemsdisplayflex{
+        background-color:   #E0BFB8;
+    }
+}

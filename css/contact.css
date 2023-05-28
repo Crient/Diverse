@@ -1,0 +1,190 @@
+body{
+    background-color: #b1560F;
+}
+.background-wallpaper{
+    background-image: url(../photos/contact/backgroundcontact.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.container-fluid{
+    background-color: #b1560F;
+
+}
+.logo{
+    width: 500px;
+}
+.nav-bgc{
+    background-color: pink;
+}
+.navbar  {
+    margin-top: -1rem !important;
+    ;
+  }
+  /* search box */
+.container-search-box{height:200px;line-height:200px;text-align:center} 
+.search-form-search-box {
+	right: 200px;
+	top: 200px;
+}
+
+ .search-field-search-box {
+	background-color: transparent;
+	background-image: url(../photos/general/search-icon.PNG);
+	background-position: 5px  center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+    border-radius: 7px;
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	margin: 3px 0;
+	padding: 0 0 0 34px;
+	position: relative;
+	-webkit-transition: width 400ms ease, background 400ms ease;
+	transition:         width 400ms ease, background 400ms ease;
+	width:0px;
+   cursor: pointer;
+   margin-right: 10px;
+}
+
+.search-field-search-box:focus {
+	background-color: #b1560F;
+	border: 1px solid white;
+	cursor: text;
+	outline: 0;
+	width: 250px;
+    color: white;
+}
+.search-form-search-box
+.search-submit-search-box { 
+    display:none;
+}
+
+.container-fluid a, .container-fluid i, .container-fluid span{
+    color: white;
+    text-shadow: grey;
+    padding-right: 10px;
+ }
+
+.dropdown-menu{
+    background-color: #b1560F;
+    border-color: black;
+}
+.container-fluid{
+    margin-bottom: -10px;
+    padding: 10px;
+}
+
+/* Contact Card */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.contact-card-h2{
+    color: white;
+}
+.contact-card-p{
+    color: white;
+    padding-bottom: -100px;
+}
+.inspect-button{
+    margin-top: 100px;
+}
+
+
+
+/* modal */
+.social-contact hr{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-content{
+    margin-top: 120px;
+    background-image: url(../photos/contact/modal-bgc.JPG);
+    background-repeat: no-repeat;
+    background-position :center ;
+    height: 485px;
+
+  
+}
+/* .modal-content p, .modal-content h1, .modal-content a{
+    color: white;
+} */
+.contact-card p, .contact-card h1, .contact-card a{
+    color: white;
+    
+}
+.contact-card-h2{
+    font-size: 25px;
+    font-family: "Blade_Runner";
+    margin-top: 10px;
+}
+.contact-card-p{
+    font-family: "Sharp_Sans";
+    margin-top: -5px;
+}
+.modal-h1{
+    font-family: "Blade_Runner";
+    color: white;
+    margin-top: 10px;
+}
+.modal-p{
+    color: white;
+    font-family: "Sharp_sans";
+    margin-top: -12px;
+}
+.modal-description{
+    color: white;
+    font-family: "Sharp_sans";
+}
+.modal-content h3{
+    color: white;
+    font-family: "Sharp_sans";}
+.modal-content a{
+    color: white;
+}
+.modal-content-footer{
+    color: white;
+    margin-bottom: -50px;
+}
+hr{
+    color: white;
+}
+/* Contact info */
+.container-info{
+    text-align: center;
+    font-family: "Sharp_sans";
+}
+
+
+/* Footer */
+.footer-text{
+    color: white;
+    font-size: 15px;
+}
+.footer-icon{
+    font-size: 100px;
+    color: white;
+}
+.container-footer{
+    margin-top: 100px;
+}
+
+
+
+
+
+/* Configured font from local file */
+
+@font-face {
+    font-family: "Blade_runner";
+    src: url(../font/BLADRMF_.TTF);
+}
+@font-face {
+    font-family: "Sharp_Sans";
+    src: url(../font/Sharp\ Sans\ Semibold.otf);
+}

@@ -1,0 +1,149 @@
+body{
+    background-image: url(../photos/general/subscription-bgc.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:  #0b2315;
+    
+}
+.arcade-background::before {
+    content:'';
+    background-image: url(../photos/general/arcadebanner.jpg) ;
+    background-size: cover;
+    position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.70;
+}
+.container-fluid{
+    background-color: #0b2315;
+
+}
+.logo{
+    width: 500px;
+}
+.nav-bgc{
+    background-color: #0b2315;
+}
+  .navbar  {
+    margin-top: -1rem !important;
+    ;
+  }
+  /* search box */
+.container-search-box{height:200px;line-height:200px;text-align:center} 
+.search-form-search-box {
+	right: 200px;
+	top: 200px;
+}
+
+ .search-field-search-box {
+	background-color: transparent;
+	background-image: url(../photos/general/search-icon.PNG);
+	background-position: 5px  center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+    border-radius: 7px;
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	margin: 3px 0;
+	padding: 0 0 0 34px;
+	position: relative;
+	-webkit-transition: width 400ms ease, background 400ms ease;
+	transition:         width 400ms ease, background 400ms ease;
+	width:0px;
+   cursor: pointer;
+   margin-right: 10px;
+}
+
+.search-field-search-box:focus {
+	background-color: black;
+	border: 1px solid white;
+	cursor: text;
+	outline: 0;
+	width: 250px;
+    color: white;
+}
+.search-form-search-box
+.search-submit-search-box { 
+display:none;
+}
+
+.container-fluid a, .container-fluid i, .container-fluid span{
+    color: white;
+    text-shadow: grey;
+    padding-right: 10px;
+ }
+
+.dropdown-menu{
+    background-color: #0b2315;
+}
+.container-fluid{
+    margin-bottom: -10px;
+    padding: 10px;
+}
+
+
+/* TEXT GENERAL */
+h1, h2, h4, p, th, td{
+    color: white;
+    font-family: "Sharp_Sans";
+}
+h1{
+    margin-top: 25px;
+}
+h4{
+    color: black;
+}
+.search-2 button {
+    background-color: #141414;
+    color: white;
+    font-family: "Sharp_Sans";
+
+}
+.search-3 button {
+    background-color: #141414;
+    color: white;
+    font-family: "Sharp_Sans";
+
+}
+.premium-header{
+    background-color: #FFD700;
+}
+.text-bg-primary{
+    background-color: gold;
+}
+.most-popular{
+    font-size: 13px;
+    position: relative;
+    top: -3px;
+    
+}
+
+
+
+
+/* Footer */
+.footer-text{
+    color: white;
+    font-size: 15px;
+}
+.footer-icon{
+    font-size: 100px;
+    color: white;
+}
+
+
+/* Configured font from local file */
+
+@font-face {
+    font-family: "Blade_runner";
+    src: url(../font/BLADRMF_.TTF);
+}
+@font-face {
+    font-family: "Sharp_Sans";
+    src: url(../font/Sharp\ Sans\ Semibold.otf);
+}
+

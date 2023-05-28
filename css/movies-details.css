@@ -1,0 +1,279 @@
+body{
+  background-color: black;
+}
+
+.container-fluid{
+    background-color: black;
+}
+.logo{
+    width: 500px;
+}
+
+
+  .navbar  {
+    margin-top: -1rem !important;
+    ;
+  }
+  /* search box */
+.container-search-box{height:200px;line-height:200px;text-align:center} 
+.search-form-search-box {
+	right: 200px;
+	top: 200px;
+}
+
+ .search-field-search-box {
+	background-color: transparent;
+	background-image: url(../photos/general/search-icon.PNG);
+	background-position: 5px  center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+    border-radius: 7px;
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	margin: 3px 0;
+	padding: 0 0 0 34px;
+	position: relative;
+	-webkit-transition: width 400ms ease, background 400ms ease;
+	transition:         width 400ms ease, background 400ms ease;
+	width:0px;
+   cursor: pointer;
+   margin-right: 10px;
+}
+
+.search-field-search-box:focus {
+	background-color: black;
+	border: 1px solid white;
+	cursor: text;
+	outline: 0;
+	width: 250px;
+    color: white;
+}
+.search-form-search-box
+.search-submit-search-box { 
+display:none;
+}
+
+
+.dropdown-menu{
+    background-color: black;
+}
+.container-fluid a, .container-fluid i, .container-fluid span{
+    color: white;
+    text-shadow: grey;
+    padding-right: 10px;
+ }
+.popularmovie-title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "Blade_runner";
+    margin-top: 80px;
+    text-shadow: -1px 1px 2px white,
+                1px 1px 2px white,
+                1px -1px 0 white,;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: whitesmoke;  
+        
+
+
+}
+
+
+.container-fluid{
+    margin-bottom: -10px;
+    padding: 10px;
+}
+.card{
+    background-color: #141414;
+    
+    
+}
+#load{
+    display: block;
+    margin: auto;
+    
+}
+.container{
+    margin-bottom: 25px;
+}
+
+
+
+h4{
+    color: white;
+}
+.container-fluid{
+   
+    background-position:
+    top right, /* this positions the first image */
+    bottom left; /* this positions the second image */
+  background-repeat:
+    no-repeat; /* this applies to both images */
+    background-size: contain;
+    
+}
+.shadow-on-banner{
+    background-image: url(../photos/IMG_0310.PNG);
+    margin-top:-20px;
+    background-position:
+
+    top left, 
+    bottom right;
+  background-repeat:
+    no-repeat; 
+    background-size: contain;
+    background-attachment: fixed;
+   
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) 
+{
+    .shadow-on-banner{
+        background-image: url(../photos/EC1470D3-DE83-4C16-8987-DF510CA7ABE4.PNG);
+        margin-top:-20px;
+        background-position:
+    
+        top left, /* this positions the first image */
+        bottom right; /* this positions the second image */
+      background-repeat:
+        no-repeat; /* this applies to both images */
+
+        /* background-attachment: fixed; */
+    }
+    .popular-movie{
+        margin-top: 150px;
+    }
+    
+}
+@media screen and (min-width: 481px) and (max-width: 768px) 
+{
+    .shadow-on-banner{
+        background-image: url(../photos/IMG_0309.PNG);
+        margin-top:-20px;
+        background-position:
+    
+        top left, /* this positions the first image */
+        bottom right; /* this positions the second image */
+      background-repeat:
+        no-repeat; /* this applies to both images */
+        
+        /* background-attachment: fixed; */
+    }
+    .popular-movie{
+        margin-top: 100px;
+    }
+    
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) 
+{
+    .shadow-on-banner{
+        background-image: url(../photos/IMG_0305.PNG);
+        margin-top:-20px;
+        background-position:
+    
+        top left, /* this positions the first image */
+        bottom right; /* this positions the second image */
+      background-repeat:
+        no-repeat; /* this applies to both images */
+
+        /* background-attachment: fixed; */
+    }
+}
+@media screen and (min-width: 1025px)  and (max-width: 1200px) 
+{
+    .shadow-on-banner{
+        background-image: url(../photos/IMG_0304.PNG);
+        margin-top:-20px;
+        background-position:
+    
+        top left, /* this positions the first image */
+        bottom right; /* this positions the second image */
+      background-repeat:
+        no-repeat; /* this applies to both images */
+
+        /* background-attachment: fixed; */
+    }
+}
+@media screen and (min-width: 1201px)  
+{
+    .shadow-on-banner{
+        background-image: url(../photos/5ADD31A6-E20B-4DD8-A68A-C56CC5E8BA83.PNG);
+        margin-top:-20px;
+        background-position:
+    
+        top left, /* this positions the first image */
+        bottom right; /* this positions the second image */
+      background-repeat:
+        no-repeat; /* this applies to both images */
+        background-size: contain;
+        /* background-attachment: fixed; */
+    }
+}
+
+
+
+.detail{
+    height: 87vh;
+    width: 100%;
+}
+.strean-span{
+    color: blue;
+}
+
+/* Footer */
+.footer{
+    margin-bottom: 500px;
+}
+.footer-text{
+    color: white;
+    font-size: 15px;
+}
+.footer-icon{
+    font-size: 100px;
+    color: white;
+}
+
+
+/* Configured font from local file */
+
+@font-face {
+    font-family: "Blade_runner";
+    src: url(../font/BLADRMF_.TTF);
+}
+@font-face {
+    font-family: "Sharp_Sans";
+    src: url(../font/Sharp\ Sans\ Semibold.otf);
+}
+@font-face {
+    font-family: "Bold";
+    src: url(../font/Helvetica-Bold.ttf);
+}
+@font-face {
+    font-family: "Light";
+    src: url(../font/helvetica-light-587ebe5a59211.ttf);
+}
+@font-face {
+    font-family: "Normal";
+    src: url(../font/Helvetica.ttf);
+}
+
+
+/* Movies-recommendation */
+.popular-movies{
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+.castnreview{
+    margin-top: 500px;
+    margin-bottom: 1500px;
+}
+.card{
+    width: 200px;
+}
+#load{
+    display: block;
+    margin: auto;
+    
+}

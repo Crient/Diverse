@@ -1,0 +1,199 @@
+body{
+    background-color: #131313;
+}
+
+.container-fluid{
+    background-color: yellow;
+}
+.logo{
+    width: 500px;
+}
+
+
+  .navbar  {
+    margin-top: -1rem !important;
+    ;
+  }
+  /* search box */
+.container-search-box{height:200px;line-height:200px;text-align:center} 
+.search-form-search-box {
+	right: 200px;
+	top: 200px;
+}
+
+ .search-field-search-box {
+	background-color: transparent;
+	background-image: url(../photos/general/search-icon.PNG);
+	background-position: 5px  center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+    border-radius: 7px;
+	border: none;
+	cursor: pointer;
+	height: 40px;
+	margin: 3px 0;
+	padding: 0 0 0 34px;
+	position: relative;
+	-webkit-transition: width 400ms ease, background 400ms ease;
+	transition:         width 400ms ease, background 400ms ease;
+	width:0px;
+   cursor: pointer;
+   margin-right: 10px;
+}
+
+.search-field-search-box:focus {
+	background-color: black;
+	border: 1px solid white;
+	cursor: text;
+	outline: 0;
+	width: 250px;
+    color: white;
+}
+.search-form-search-box
+.search-submit-search-box { 
+display:none;
+}
+
+
+.dropdown-menu{
+    background-color: black;
+}
+.container-fluid a, .container-fluid i, .container-fluid span{
+    color: white;
+    text-shadow: grey;
+    padding-right: 10px;
+
+ }
+
+.popularmovie-title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "Blade_runner";
+    margin-top: 80px;
+    text-shadow: -1px 1px 2px white,
+                1px 1px 2px white,
+                1px -1px 0 white,;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: whitesmoke;  
+        
+
+
+}
+
+
+.container-fluid{
+    margin-bottom: -10px;
+    padding: 10px;
+}
+.card{
+    background-color: #141414;
+    
+    
+}
+#load{
+    display: block;
+    margin: auto;
+    
+}
+.container{
+    margin-bottom: 25px;
+}
+
+
+
+/*  Movie Card */
+.card-body h5, .card-body p{
+    font-family: "Sharp_Sans";
+    @supports (-webkit-line-clamp: 2) {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: initial;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+}
+.card-body h4{
+    font-size: 18px;
+    color: white;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.card-body h5{
+    font-size: 14px;
+    color: white;
+    opacity: 50%;
+    
+}
+.card-body p{
+    font-size: 12px;
+
+    color: whitesmoke;
+    padding-top: -60px;
+    opacity: 20%;
+}
+.calendar-logo{
+    font-size: 11px;
+}
+.card-body{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: N; /* number of lines to show */
+    line-height: X;        /* fallback */
+    max-height: X*N;       /* fallback */
+    height: 115px;
+}
+
+
+.pick.film-poster-quality {
+    color: #000;
+    background: #fff;
+    left: auto;
+    right: 10px;
+    font-family: "Blade_runner";
+}
+.pick {
+    position: absolute;
+    z-index: 5;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 3px 5px;
+    border-radius: 2px;
+    background: rgba(255,255,255,.95);
+    box-shadow: 0 0 30px #000;
+}
+
+
+/* Footer */
+.footer-text{
+    color: white;
+    font-size: 15px;
+}
+.footer-icon{
+    font-size: 100px;
+    color: white;
+}
+.container-footer{
+    margin-top: 100px;
+    
+}
+
+/* Configured font from local file */
+
+@font-face {
+    font-family: "Blade_runner";
+    src: url(../font/BLADRMF_.TTF);
+}
+@font-face {
+    font-family: "Sharp_Sans";
+    src: url(../font/Sharp\ Sans\ Semibold.otf);
+}
